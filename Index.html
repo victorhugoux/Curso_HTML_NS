@@ -5,15 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hola Mundo</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Blog de Victor Hugo</h1>
     <a href= "https://www.blanc.com.mx">Soy Huguito bb</a>
-    <p>En Henry invertimos en tu educación. Nuestro equipo de coaches y <br> expertos te acompañan en tu búsqueda y preparación y preparación laboral.</p>
-    <p>En Henrry invertimos en tu educación.</p>
-    <ul>Nuestros equipo de: 
-        <li>coaches y expertos</li>
-        <li>te acompaña en tu búsqueda y preparación laboral.</li>
-    </ul>
+    <br>
+
+<table style="width: 450px;">
+    <thead>
+        <tr>
+            <th>Precio</th>
+            <th>Producto</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Hola Beats</td>
+            <td>Es Gratis</td>
+        </tr>
+        <tr>
+            <td>Chanchito Feliz</td>
+            <td>$300.00 USD</td>
+        </tr>
+        <tr>
+            <td>Chanchito Muy Feliz</td>
+            <td>$500.00 USD</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td></td>
+        <td>Total: $800.00 USD</td>
+    </tfoot>
+</table>
+<!-- ul es lista no ordenada -->
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+</ul>
+<!-- ol es lista ordenada -->
+<ol>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>
+        <ol>
+            <li style="list-style-type: lower-roman;">Sub Elemento 1</li>
+            <li style="list-style-type: lower-roman;">Sub Elemento 2</li>
+            <li style="list-style-type: lower-roman;">Sub Elemento 3</li>
+            <li style="list-style-type: lower-roman;">Sub Elemento 4</li>
+        </ol>
+    </li>
+</ol>
+
+
+    <br>
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="chanchito" type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="feliz" type="text" id="apellido" name="apellido" placeholder="Apellido" />
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea rows="10" Cols="50" id="comentario" placeholder="Ingrese comentario" name="Comentario">Este es un valor por defecto</textarea>
+        <br>
+        <button type="button"><!--img src="Img/Bussines Card.png" width="50px"--> Button</button>
+        <button type="reset">Tipo Reset</button>
+        <button type="submit">Tipo Submit</button>
+    </form>
+    <br>
+    <h1>Mi primer Heading</h1>
+    <h2>Mi Segundo Heading</h2>
+    <h3>Mi Tercero Heading</h3>
+    <h4>Mi Cuarto Heading</h4>
+    <h5>Mi Quinto Heading</h5>
+    <h6>Mi Sexto Heading</h6>
+    <p>Chanchito Feliz</p>
+    <p>Chanchito esta Feliz</p>
+    <hr>
+    <h2>Chanchito Feliz</h2>
+    <p>Este texto es <span style="Color:blue">mucho más largo</span> y es para mostrar 
+        <br><br>la etiqueta en spam!</p>
+    <!-- este texto es un comentario y no va a 
+        salir en el explorador -->
+    <a target="_blank" href="https://www.google.com.mx">Ir a Google</a>
+    <br>
+    <img src="Img/Bussines Card.png" height="400px" />
+
 </body>
 </html>
